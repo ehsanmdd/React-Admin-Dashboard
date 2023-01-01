@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Poppins-Bold";
+    src: local("Poppins"),
+        url("/src/Assets/fonts/Poppins-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Poppins-Medium";
+    src: local("Poppins"),
+        url("/src/Assets/fonts/Poppins-Medium.ttf") format("truetype");
+}
+
+.features {
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features__item {
+    flex: 1;
+    margin: 0 1.25rem;
+    padding: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.feature__title {
+    font-size: 1.5rem;
+}
+
+.featture__container {
+    display: flex;
+    align-items: center;
+    margin: .5rem;
+}
+
+.featture__container--money {
+    font-size: 2rem;
+    font-family: "Poppins-Bold";
+}
+
+.featture__container--rate {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    color: gray;
+}
+
+.featture__container--icon {
+    font-size: 1rem;
+    margin-left: .1rem;
+    color: LimeGreen;
+}
+
+.featture__container--icon.negative {
+    color: tomato;
+}
+
+.features__period {
+    font-size: .8rem;
+    color: gray;
+}

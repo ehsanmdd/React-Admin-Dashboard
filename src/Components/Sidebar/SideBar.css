@@ -1,9 +1,9 @@
 .sidebar {
     flex: 1;
-    height: calc(100%vh - 50px);
-    background-color: white;
-    position: fixed;
-    top: 8rem;
+    height: calc(100vh - 50px);
+    background-color: rgb(251, 251, 255);
+    position: sticky;
+    top: 50px;
 }
 .sidebar__wrapper {
     padding: 1.2rem;
@@ -30,7 +30,8 @@
     border-radius: .5rem;
 }
 
-.sidebar__lists--item.active, .sidebar__lists--item:hover {
+.sidebar__lists--item.active,
+.sidebar__lists--item:hover {
     background-color: rgb(240, 240, 255);
 }
 
