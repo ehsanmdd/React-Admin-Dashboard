@@ -1,0 +1,22 @@
+            /* Fonts  */
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./Assets/fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+}
+
+.container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
