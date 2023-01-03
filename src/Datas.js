@@ -168,4 +168,49 @@ let userTable = [
     },
 ]
 
-export {xAxisData , newMembers , transaction , userTable}
+const productItem = [
+    {
+        id : 1,
+        productName : "Breitling Chronomat SilverBronz",
+        productImg : "./images/Products/BreitlingChronomat-15.jpg",
+        productId : "CB0110121C1C1",
+        price : "$8.900.00"
+    },
+    {
+        id : 2,
+        productName : "Breitling Chronomat SilverGold",
+        productImg : "./images/Products/BreitlingChronomat-10.jpg",
+        productId : "CB0110121C1B2",
+        price : "$13.000.00"
+    },
+    {
+        id : 3,
+        productName : "Breitling Chronomat GoldLetter",
+        productImg : "./images/Products/BreitlingChronomat-12.jpg",
+        productId : "CB0110121C1C2",
+        price : "$11.564.20"
+    },
+    {
+        id : 4,
+        productName : "Breitling Chronomat NavyGold",
+        productImg : "./images/Products/BreitlingChronomat-16.jpg",
+        productId : "CB0110121C1A1",
+        price : "$14.564.20"
+    },
+    {
+        id : 5,
+        productName : "Breitling Chronomat Black",
+        productImg : "./images/Products/BreitlingChronomat-5.jpg",
+        productId : "CB0110121C1A6",
+        price : "$10,564.20"
+    },
+    {
+        id : 6,
+        productName : "Breitling Chronomat RoseGold",
+        productImg : "./images/Products/BreitlingChronomat-21.jpg",
+        productId : "CB0110121C1C3",
+        price : "$12.564.20"
+    },
+]
+
+export {xAxisData , newMembers , transaction , userTable , productItem}
