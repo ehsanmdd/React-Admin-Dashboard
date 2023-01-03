@@ -16,7 +16,6 @@ function App() {
         {router}
       </div>
     </>
-
   );
 }
 

@@ -28,19 +28,19 @@ function SideBar() {
                 <div className="sidebar__menu">
                     <h3 className="sidebar__title">Dashboard</h3>
                     <ul className="sidebar__lists">
-                        <Link to={"/"} className="link">
+                        <Link to="/" className="link">
                             <li className="sidebar__lists--item active">
                                 <OtherHousesOutlinedIcon className='sidebar__list--icon' />
                                 Home
                             </li>
                         </Link>
-                        <Link to={"/analytics"} className="link">
+                        <Link to="/analytics" className="link">
                             <li className="sidebar__lists--item">
                                 <TrendingUpOutlinedIcon className='sidebar__list--icon' />
                                 Analytics
                             </li>
                         </Link>
-                        <Link to={"/sale"} className="link">
+                        <Link to="/sale" className="link">
                             <li className="sidebar__lists--item">
                                 <AttachMoneyOutlinedIcon className='sidebar__list--icon' />
                                 Sale
@@ -51,31 +51,31 @@ function SideBar() {
                 <div className="sidebar__menu">
                     <h3 className="sidebar__title">Quick Menu</h3>
                     <ul className="sidebar__lists">
-                        <Link to={"/users"} className="link">
+                        <Link to="/users" className="link">
                             <li className="sidebar__lists--item">
                                 <PeopleAltOutlinedIcon className='sidebar__list--icon' />
                                 Users
                             </li>
                         </Link>
-                        <Link to={"/new User"} className="link">
+                        <Link to="/new User" className="link">
                             <li className="sidebar__lists--item">
                                 <PersonAddOutlinedIcon className='sidebar__list--icon' />
                                 New User
                             </li>
                         </Link>
-                        <Link to={"/products"} className="link">
+                        <Link to="/products" className="link">
                             <li className="sidebar__lists--item">
                                 <Inventory2OutlinedIcon className='sidebar__list--icon' />
                                 Products
                             </li>
                         </Link>
-                        <Link to={"/transactions"} className="link">
+                        <Link to="/transactions" className="link">
                             <li className="sidebar__lists--item">
                                 <PaidOutlinedIcon className='sidebar__list--icon' />
                                 Transactions
                             </li>
                         </Link>
-                        <Link to={"/reports"} className="link">
+                        <Link to="/reports" className="link">
                             <li className="sidebar__lists--item">
                                 <BarChartOutlinedIcon className='sidebar__list--icon' />
                                 Reports
@@ -86,19 +86,19 @@ function SideBar() {
                 <div className="sidebar__menu">
                     <h3 className="sidebar__title">Notifications</h3>
                     <ul className="sidebar__lists">
-                        <Link to={"/mail"} className="link">
+                        <Link to="/mail" className="link">
                             <li className="sidebar__lists--item">
                                 <EmailOutlinedIcon className='sidebar__list--icon' />
                                 Mail
                             </li>
                         </Link>
-                        <Link to={"/feedback"} className="link">
+                        <Link to="/feedback" className="link">
                             <li className="sidebar__lists--item">
                                 <FeedbackOutlinedIcon className='sidebar__list--icon' />
                                 Feedback
                             </li>
                         </Link>
-                        <Link to={"/messages"} className="link">
+                        <Link to="/messages" className="link">
                             <li className="sidebar__lists--item">
                                 <ChatBubbleOutlineOutlinedIcon className='sidebar__list--icon' />
                                 Messages
@@ -109,19 +109,19 @@ function SideBar() {
                 <div className="sidebar__menu">
                     <h3 className="sidebar__title">Staff</h3>
                     <ul className="sidebar__lists">
-                        <Link to={"/manage"} className="link">
+                        <Link to="/manage" className="link">
                             <li className="sidebar__lists--item">
                                 <ManageHistoryOutlinedIcon className='sidebar__list--icon' />
                                 Manage
                             </li>
                         </Link>
-                        <Link to={"/sales analytics"} className="link">
+                        <Link to="/sales analytics" className="link">
                             <li className="sidebar__lists--item">
                                 <AnalyticsOutlinedIcon className='sidebar__list--icon' />
                                 Sales Analytics
                             </li>
                         </Link>
-                        <Link to={"/log-out"} className="link">
+                        <Link to="/log-out" className="link">
                             <li className="sidebar__lists--item">
                                 <LoginOutlinedIcon className='sidebar__list--icon' />
                                 Log-Out

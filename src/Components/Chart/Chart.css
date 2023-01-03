@@ -1,0 +1,10 @@
+.chart {
+    flex: 1;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.chart__title {
+    margin-bottom: 1.5rem;
+}

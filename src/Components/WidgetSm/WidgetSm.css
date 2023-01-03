@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Poppins-Bold";
+    src: local("Poppins"),
+        url("/src/Assets/fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+.widgetSm {
+    flex: 1;
+    padding: 24px;
+    margin: 24px;
+    margin-right: .5rem;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.widgetSm__title {
+    /* font-family: "Poppins-Bold"; */
+    font-size: 1.17rem;
+    font-weight: bold;
+}
+
+.widgetSm__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-top: 1rem;
+}
+
+.widgetSm__list--item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 0;
+}
+
+.widgetSm__list--item--img {
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.widgetSm__user {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.widgetSm__user--userName {
+    font-weight: bold;
+}
+
+.widgetSm__user--title {
+    font-weight: 300;
+    color: gray;
+}
+
+.widgetSm__list--item--btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+
+.widgetSm__list--item--icon {
+    font-size: 16px !important;
+}
