@@ -9,9 +9,9 @@ import "./Products.css";
 
 function Products() {
   const [productsData, setProductsData] = useState(productItem);
-  const productDelete = (userID) => { 
+  const productDelete = (productID) => { 
 
-    setProductsData(productsData.filter(user => user.id !== userID) )
+    setProductsData(productsData.filter(product => product.id !== productID) )
   }
 
   const columns = [
@@ -27,7 +27,7 @@ function Products() {
       renderCell: (params) => {
         return (
           <>
-            <Link to="/" className='link'>
+            <Link to={`/productS/${params.row.id}`} className='link'>
               <div className="productsList__item">
                 <img src={params.row.productImg} className="productsList__Img" alt='User Avatar' />
                 {params.row.productName}
@@ -44,7 +44,7 @@ function Products() {
     },
     {
       field: "price",
-      headerName: "price",
+      headerName: "Price",
       width: 120
     },
     {
@@ -54,7 +54,7 @@ function Products() {
       renderCell: (params) => {
         return (
           <>
-            <Link to={`/products/${params.row.id}`} className="link">
+            <Link to={`/product/${params.row.id}`} className="link">
               <button className='productsList__Edit'>Edit</button>
             </Link>
             <DeleteForeverOutlinedIcon

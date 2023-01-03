@@ -2,6 +2,7 @@ import Home from "./Pages/Home/Home"
 import UserList from "./Pages/Users/UserList"
 import NewUser from "./Pages/NewUser/NewUser"
 import Products from "./Pages/Products/Products"
+import Product from "./Pages/Product/Product"
 import FeedBack from "./Pages/FeedBack/FeedBack"
 import Mail from "./Pages/Mail/Mail"
 import Manage from "./Pages/Manage/Manage"
@@ -17,6 +18,7 @@ let routes = [
     {path: "/users" , element: <UserList />},
     {path: "/newuser" , element: <NewUser />},
     {path: "/products" , element: <Products />},
+    {path: "/product/:productID" , element: <Product />},
     {path: "/analytics" , element: <Analytics />},
     {path: "/feedBack" , element: <FeedBack />},
     {path: "/mail" , element: <Mail />},

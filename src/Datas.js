@@ -1,35 +1,35 @@
 let xAxisData = [
     {
         "name" : "Jan",
-        "Sale" : 112_000
+        "Sale" : 112_000_00
     },
     {
         "name" : "Feb",
-        "Sale" : 99_000
+        "Sale" : 99_000_00
     },
     {
         "name" : "Mar",
-        "Sale" : 12_900
+        "Sale" : 12_900_00
     },
     {
         "name" : "Apr",
-        "Sale" : 99_000
+        "Sale" : 99_000_00
     },
     {
         "name" : "May",
-        "Sale" : 54_000
+        "Sale" : 54_000_00
     },
     {
         "name" : "Jun",
-        "Sale" : 85_000
+        "Sale" : 85_000_00
     },
     {
         "name" : "Jul",
-        "Sale" : 34_000
+        "Sale" : 34_000_00
     },
     {
         "name" : "Agu",
-        "Sale" : 18_000
+        "Sale" : 18_000_00
     },
     {
         "name" : "Sep",
@@ -37,15 +37,15 @@ let xAxisData = [
     },
     {
         "name" : "Oct",
-        "Sale" : 73_000
+        "Sale" : 73_000_00
     },
     {
         "name" : "Nov",
-        "Sale" : 12_900
+        "Sale" : 12_900_00
     },
     {
         "name" : "Des",
-        "Sale" : 97_000
+        "Sale" : 97_000_00
     },
 ]
 
@@ -81,7 +81,7 @@ const transaction = [
         id : 1,
         customer : "Nasim OmidiFar",
         date : "12 May 2022",
-        amount : "152.85",
+        amount : "10.000.00",
         status : "Approved",
         img : "./images/Avatar/UserImage-7.jpg"
     },
@@ -89,7 +89,7 @@ const transaction = [
         id : 5,
         customer : "Ardeshir Keyhani",
         date : "25 Nov 2022",
-        amount : "100.85",
+        amount : "13.000.00",
         status : "Pending",
         img : "./images/Avatar/UserImage-11.jpg"
     },
@@ -97,7 +97,7 @@ const transaction = [
         id : 2,
         customer : "Ghazal Nemati",
         date : "22 Jan 2022",
-        amount : "190.00",
+        amount : "19.000.00",
         status : "Pending",
         img : "./images/Avatar/UserImage-8.jpg"
     },
@@ -105,7 +105,7 @@ const transaction = [
         id : 3,
         customer : "Tina AkhondTabar",
         date : "19 Jun 2022",
-        amount : "100.85",
+        amount : "14.000.00",
         status : "Declined",
         img : "./images/Avatar/UserImage-9.jpg"
     },
@@ -113,7 +113,7 @@ const transaction = [
         id : 4,
         customer : "Pedram Sobhani",
         date : "08 Sep 2022",
-        amount : "280.85",
+        amount : "13.000.00",
         status : "Approved",
         img : "./images/Avatar/UserImage-10.jpg"
     },
@@ -127,7 +127,7 @@ let userTable = [
         avatar : "./images/Avatar/UserImage-11.jpg",
         status : "active",
         age : 25,
-        transaction : "$129.00",
+        transaction : "$10.000.00",
         email : "s.sanei@gmail.com"
     },
     {
@@ -136,7 +136,7 @@ let userTable = [
         avatar : "./images/Avatar/UserImage-12.jpg",
         status : "active",
         age : 27,
-        transaction : "$130.00",
+        transaction : "$18.000.00",
         email : "mohamadi.emad@yahoo.com"
     },
     {
@@ -145,7 +145,7 @@ let userTable = [
         avatar : "./images/Avatar/UserImage-13.jpg",
         status : "disable",
         age : 22,
-        transaction : "$111.00",
+        transaction : "$12.500.00",
         email : "pashazadeh.n@gmail.com"
     },
     {
@@ -154,7 +154,7 @@ let userTable = [
         avatar : "./images/Avatar/UserImage-14.jpg",
         status : "active",
         age : 24,
-        transaction : "$120.00",
+        transaction : "$12.000.00",
         email : "nr.motlagh@hotmail.com"
     },
     {
@@ -163,7 +163,7 @@ let userTable = [
         avatar : "./images/Avatar/UserImage-16.jpg",
         status : "active",
         age : 24,
-        transaction : "$580.00",
+        transaction : "$22.000.00",
         email : "d.m@meshkat.com"
     },
 ]
