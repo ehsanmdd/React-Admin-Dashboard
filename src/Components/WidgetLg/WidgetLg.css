@@ -36,7 +36,7 @@
 
 .widgetLg__data,
 .widgetLg__amount {
-    color: rgba(128, 128, 128, 0.767);
+    color: gray;
 }
 
 .WidgetLg__status {}

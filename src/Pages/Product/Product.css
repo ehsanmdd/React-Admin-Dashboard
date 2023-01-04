@@ -3,14 +3,15 @@
     margin: 24px;
     padding: 24px;
 }
+
 .product__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.product__container--title {
-    
-}
+
+.product__container--title {}
+
 .product__container-addbtn {
     width: 80px;
     border: none;
@@ -20,4 +21,114 @@
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.product__top {
+    display: flex;
+}
+
+.product__top__left {
+    display: flex;
+}
+.product__top__left,
+.product__top__right {
+    flex: 1;
+}
+
+.product__top__right {
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.product__top__right__info {
+    display: flex;
+    align-items: center;
+}
+
+.product__top__right__info--img {
+    width: 5rem;
+    margin-right: 20px;
+
+}
+
+.product__top__right__info--name {
+    font-size: 1.17rem;
+    font-weight: bold;
+}
+
+.product__bottom__right {
+    margin-top: 20px;
+}
+
+.product__bottom__right--item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product__bottom__right__item--key {
+    font-weight: bold;
+}
+
+.product__bottom__right__item--value {
+    color: gray;
+}
+
+.product__bottom {
+    padding: 24px;
+    margin: 24px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+
+.product__bottom__form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product__bottom__form--left {
+    display: flex;
+    flex-direction: column;
+}
+
+.product__bottom__form--left>label {
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.product__bottom__form--left>input {
+    margin: 10px 0;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.product__bottom__form--left>input:focus {
+    outline: none;
+}
+
+.product__bottom__form--left>select {
+    margin-bottom: 10px;
+}
+
+.product__bottom__form__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.product__bottom__form__right--btn {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: #eeeef7;
+    cursor: pointer;
+    transition: all 2ms ease-out;
+    font-weight: bold;
+}
+
+.product__bottom__form__right--btn:hover {
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 1);
 }

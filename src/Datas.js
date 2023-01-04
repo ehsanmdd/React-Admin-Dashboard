@@ -213,4 +213,23 @@ const productItem = [
     },
 ]
 
-export {xAxisData , newMembers , transaction , userTable , productItem}
+const monthlySales = [
+    {
+        name : "Jan",
+        sales : 30_000_00,
+    },
+    {
+        name : "Sep",
+        sales : 120_000_00,
+    },
+    {
+        name : "Agu",
+        sales : 50_000_00,
+    },
+    {
+        name : "Nov",
+        sales : 20_000_00,
+    },
+]
+
+export {xAxisData , newMembers , transaction , userTable , productItem , monthlySales}

@@ -10,7 +10,7 @@ function TopBar() {
         <div className="topbar__wrapper">
 
             <div className="topbar__left">
-                <img className='topbar__logo--img' src="./images/Logo/dashboard.png" alt="Logo" />
+                <img className='topbar__logo--img' src="../images/Logo/dashboard.png" alt="Logo" />
                 <span className="topbar__logo">Dashboard</span>
             </div>
 
@@ -27,7 +27,7 @@ function TopBar() {
                     <SettingsOutlinedIcon/>
                 </div>
                 <div className="topbar__user">
-                    <img src="./images/Avatar/UserImage-17.jpg" alt="User Iamge" className="topbar__user--image" />
+                    <img src="../images/Avatar/UserImage-17.jpg" alt="User Iamge" className="topbar__user--image" />
                 </div>
             </div>
 
