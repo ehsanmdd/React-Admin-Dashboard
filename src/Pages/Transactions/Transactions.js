@@ -4,7 +4,9 @@ import "./Transactions.css"
 
 function Transactions() {
   return (
-    <div>Transactions</div>
+    <div className="transactions">
+      <h3 className="chart__title">Transactions</h3>
+    </div>
   )
 }
 

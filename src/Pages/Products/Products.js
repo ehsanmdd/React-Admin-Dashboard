@@ -23,7 +23,7 @@ function Products() {
     {
       field: 'product',
       headerName: 'Product',
-      width: 200,
+      width: 350,
       renderCell: (params) => {
         return (
           <>
@@ -45,7 +45,7 @@ function Products() {
     {
       field: "price",
       headerName: "Price",
-      width: 120
+      width: 200
     },
     {
       field: "action",

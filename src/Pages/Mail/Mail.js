@@ -3,7 +3,9 @@ import "./Mail.css"
 
 function Mail() {
   return (
-    <div>Mail</div>
+    <div className="mail">
+      <h3 className="chart__title">mail</h3>
+    </div>
   )
 }
 

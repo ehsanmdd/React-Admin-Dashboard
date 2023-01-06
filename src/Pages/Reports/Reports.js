@@ -3,7 +3,9 @@ import "./Reports.css"
 
 function Reports() {
   return (
-    <div>Reports</div>
+    <div className="reports">
+      <h3 className="chart__title">Reports</h3>
+    </div>
   )
 }
 

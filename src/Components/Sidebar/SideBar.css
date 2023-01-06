@@ -5,25 +5,29 @@
     position: sticky;
     top: 50px;
 }
+
 .sidebar__wrapper {
     padding: 1.2rem;
     color: #555;
 
 }
+
 .sidebar__menu {
     margin-bottom: 2rem;
 }
+
 .sidebar__title {
     font-size: .8rem;
     color: rgb(187, 186, 186);
 }
+
 .sidebar__lists {
     list-style: none;
     padding: .4rem;
 }
 
 .sidebar__lists--item {
-    padding: .2rem .5rem .4rem .3rem;
+    padding: .2rem;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -35,8 +39,10 @@
     background-color: rgb(240, 240, 255);
 }
 
+a.active {
+    background-color: rgb(240, 240, 255);
+}
 .sidebar__list--icon {
     margin-right: .5rem;
     font-size: 1.3rem !important;
 }
-

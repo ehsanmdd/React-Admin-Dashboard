@@ -23,7 +23,7 @@ function UserList() {
     {
       field: 'user',
       headerName: 'User',
-      width: 200,
+      width: 300,
       renderCell: (params) => {
         return (
           <>
@@ -40,7 +40,7 @@ function UserList() {
     {
       field: "email",
       headerName: "Email",
-      width: 200
+      width: 300
     },
     {
       field: "status",
@@ -50,7 +50,7 @@ function UserList() {
     {
       field: "transaction",
       headerName: "Transaction",
-      width: 120
+      width: 200
     },
     {
       field: "action",

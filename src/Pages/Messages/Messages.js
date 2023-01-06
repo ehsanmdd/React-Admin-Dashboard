@@ -3,7 +3,9 @@ import "./Messages.css"
 
 function Messages() {
   return (
-    <div>Messages</div>
+    <div className="messages">
+      <h3 className="chart__title">Messages</h3>
+    </div>
   )
 }
 

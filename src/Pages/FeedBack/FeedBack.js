@@ -3,7 +3,9 @@ import "./FeedBack.css"
 
 function FeedBack() {
   return (
-    <div>FeedBack</div>
+    <div className="feedback">
+      <h3 className="chart__title">FeedBack</h3>
+    </div>
   )
 }
 

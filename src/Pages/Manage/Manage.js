@@ -4,7 +4,9 @@ import "./Manage.css"
 
 function Manage() {
   return (
-    <div>Manage</div>
+    <div className="manage">
+      <h3 className="chart__title">Manage</h3>
+    </div>
   )
 }
 

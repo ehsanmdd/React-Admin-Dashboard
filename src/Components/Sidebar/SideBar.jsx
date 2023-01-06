@@ -16,7 +16,7 @@ import ManageHistoryOutlinedIcon from '@mui/icons-material/ManageHistoryOutlined
 import AnalyticsOutlinedIcon from '@mui/icons-material/AnalyticsOutlined';
 import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
 
-import { Link } from 'react-router-dom';
+import { NavLink, useParams } from 'react-router-dom';
 
 function SideBar() {
     return (
@@ -28,105 +28,105 @@ function SideBar() {
                 <div className="sidebar__menu">
                     <h3 className="sidebar__title">Dashboard</h3>
                     <ul className="sidebar__lists">
-                        <Link to="/" className="link">
-                            <li className="sidebar__lists--item active">
+                        <NavLink to="/" className="link sidebar__lists--item" >
+                            <li  className="link sidebar__lists--item">
                                 <OtherHousesOutlinedIcon className='sidebar__list--icon' />
                                 Home
                             </li>
-                        </Link>
-                        <Link to="/analytics" className="link">
+                        </NavLink>
+                        <NavLink to="/analytics" className="link sidebar__lists--item">
                             <li className="sidebar__lists--item">
                                 <TrendingUpOutlinedIcon className='sidebar__list--icon' />
                                 Analytics
                             </li>
-                        </Link>
-                        <Link to="/sale" className="link">
+                        </NavLink>
+                        <NavLink to="/sale" className="link sidebar__lists--item">
                             <li className="sidebar__lists--item">
                                 <AttachMoneyOutlinedIcon className='sidebar__list--icon' />
                                 Sale
                             </li>
-                        </Link>
+                        </NavLink>
                     </ul>
                 </div>
                 <div className="sidebar__menu">
                     <h3 className="sidebar__title">Quick Menu</h3>
                     <ul className="sidebar__lists">
-                        <Link to="/users" className="link">
+                        <NavLink to="/users" className="link sidebar__lists--item">
                             <li className="sidebar__lists--item">
                                 <PeopleAltOutlinedIcon className='sidebar__list--icon' />
                                 Users
                             </li>
-                        </Link>
-                        <Link to="/new User" className="link">
+                        </NavLink>
+                        <NavLink to="/newuser" className="link sidebar__lists--item">
                             <li className="sidebar__lists--item">
                                 <PersonAddOutlinedIcon className='sidebar__list--icon' />
                                 New User
                             </li>
-                        </Link>
-                        <Link to="/products" className="link">
+                        </NavLink>
+                        <NavLink to="/products" className="link sidebar__lists--item">
                             <li className="sidebar__lists--item">
                                 <Inventory2OutlinedIcon className='sidebar__list--icon' />
                                 Products
                             </li>
-                        </Link>
-                        <Link to="/transactions" className="link">
+                        </NavLink>
+                        <NavLink to="/transactions" className="link sidebar__lists--item">
                             <li className="sidebar__lists--item">
                                 <PaidOutlinedIcon className='sidebar__list--icon' />
                                 Transactions
                             </li>
-                        </Link>
-                        <Link to="/reports" className="link">
+                        </NavLink>
+                        <NavLink to="/reports" className="link sidebar__lists--item">
                             <li className="sidebar__lists--item">
                                 <BarChartOutlinedIcon className='sidebar__list--icon' />
                                 Reports
                             </li>
-                        </Link>
+                        </NavLink>
                     </ul>
                 </div>
                 <div className="sidebar__menu">
                     <h3 className="sidebar__title">Notifications</h3>
                     <ul className="sidebar__lists">
-                        <Link to="/mail" className="link">
+                        <NavLink to="/mail" className="link sidebar__lists--item">
                             <li className="sidebar__lists--item">
                                 <EmailOutlinedIcon className='sidebar__list--icon' />
                                 Mail
                             </li>
-                        </Link>
-                        <Link to="/feedback" className="link">
+                        </NavLink>
+                        <NavLink to="/feedback" className="link sidebar__lists--item">
                             <li className="sidebar__lists--item">
                                 <FeedbackOutlinedIcon className='sidebar__list--icon' />
                                 Feedback
                             </li>
-                        </Link>
-                        <Link to="/messages" className="link">
+                        </NavLink>
+                        <NavLink to="/messages" className="link sidebar__lists--item">
                             <li className="sidebar__lists--item">
                                 <ChatBubbleOutlineOutlinedIcon className='sidebar__list--icon' />
                                 Messages
                             </li>
-                        </Link>
+                        </NavLink>
                     </ul>
                 </div>
                 <div className="sidebar__menu">
                     <h3 className="sidebar__title">Staff</h3>
                     <ul className="sidebar__lists">
-                        <Link to="/manage" className="link">
+                        <NavLink to="/manage" className="link sidebar__lists--item">
                             <li className="sidebar__lists--item">
                                 <ManageHistoryOutlinedIcon className='sidebar__list--icon' />
                                 Manage
                             </li>
-                        </Link>
-                        <Link to="/sales analytics" className="link">
+                        </NavLink>
+                        <NavLink to="/salesanalytics" className="link sidebar__lists--item">
                             <li className="sidebar__lists--item">
                                 <AnalyticsOutlinedIcon className='sidebar__list--icon' />
                                 Sales Analytics
                             </li>
-                        </Link>
-                        <Link to="/log-out" className="link">
+                        </NavLink>
+                        <NavLink to="/log-out" className="link sidebar__lists--item">
                             <li className="sidebar__lists--item">
                                 <LoginOutlinedIcon className='sidebar__list--icon' />
                                 Log-Out
                             </li>
-                        </Link>
+                        </NavLink>
                     </ul>
                 </div>
             </div>
